@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="box-container">
+            <div class="question-container">
+                <h2 class="question"> 1. What is your name?</h2>
+            </div>
+
+            <div class="option-container">
+                <div class="row">
+                    <input type="radio" name="option-answer" class="options" id="first" value="a" required>
+                    <label for="first">HTML</label>
+                </div>
+                <div class="row">
+                    <input type="radio" name="option-answer" class="options" id="second" value="b" required>
+                    <label for="second">HTML</label>
+                </div>
+                <div class="row">
+                    <input type="radio" name="option-answer" class="options" id="third" value="c" required>
+                    <label for="third">HTML</label>
+                </div>
+                <div class="row">
+                    <input type="radio" name="option-answer" class="options" id="fourth" value="d" required>
+                    <label for="fourth">HTML</label>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </div>
+        <div>
+            <h1 class="show-answer"></h1>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
